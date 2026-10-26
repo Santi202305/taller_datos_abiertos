@@ -158,19 +158,26 @@ lib/
 
 ## 6. Capturas de la Aplicación
 
-Las capturas generadas se encuentran almacenadas en el directorio `docs/screenshots/`:
+Todas las capturas fueron tomadas con renderizado de fuentes reales y datos auténticos de la API:
 
-| 1. Dashboard Principal | 2. Listado de Elementos |
-| :---: | :---: |
-| ![Dashboard](docs/screenshots/01_dashboard.png) | ![Listado](docs/screenshots/02_listado.png) |
+### 6.1. Dashboard Principal
+![01-dashboard](docs/screenshots/01-dashboard.png)
 
-| 3. Detalle de Elemento | 4. Estado Cargando |
-| :---: | :---: |
-| ![Detalle](docs/screenshots/03_detalle.png) | ![Cargando](docs/screenshots/04_estado_cargando.png) |
+### 6.2. Listados y Detalles por Endpoint
 
-| 5. Estado de Error (con Reintento) |
-| :---: |
-| ![Error](docs/screenshots/05_estado_error.png) |
+| Endpoint | Listado | Detalle |
+| :--- | :---: | :---: |
+| **Departamentos** | ![Listado Departamentos](docs/screenshots/02-listado-department.png) | ![Detalle Departamentos](docs/screenshots/03-detalle-department.png) |
+| **Presidentes** | ![Listado Presidentes](docs/screenshots/02-listado-president.png) | ![Detalle Presidentes](docs/screenshots/03-detalle-president.png) |
+| **Atracciones Turísticas** | ![Listado Atracciones](docs/screenshots/02-listado-touristicattraction.png) | ![Detalle Atracciones](docs/screenshots/03-detalle-touristicattraction.png) |
+| **Regiones** | ![Listado Regiones](docs/screenshots/02-listado-region.png) | ![Detalle Regiones](docs/screenshots/03-detalle-region.png) |
+| **Platos Típicos** | ![Listado Platos](docs/screenshots/02-listado-typicaldish.png) | ![Detalle Platos](docs/screenshots/03-detalle-typicaldish.png) |
+
+### 6.3. Manejo de Estados Asíncronos
+
+| Estado Cargando | Estado Error con Reintento | Estado Lista Vacía |
+| :---: | :---: | :---: |
+| ![Estado Cargando](docs/screenshots/04-estado-carga.png) | ![Estado Error](docs/screenshots/05-estado-error.png) | ![Estado Vacío](docs/screenshots/06-estado-vacio.png) |
 
 ---
 
@@ -178,7 +185,7 @@ Las capturas generadas se encuentran almacenadas en el directorio `docs/screensh
 
 ### Prerrequisitos
 - Flutter SDK (versión `>=3.13.0` o superior).
-- Emulador Android, iOS o entorno Desktop (Linux/macOS/Windows) configurado.
+- Dispositivo Android/iOS o entorno Desktop (Linux/macOS/Windows).
 
 ### Pasos:
 1. Clonar el repositorio:
