@@ -1,0 +1,20 @@
+* 0e33aa8 docs: capturas de pantalla del taller con tipografia real y datos autenticos
+| *   fba0439 Merge branch 'dev' into main
+| |\  
+| |/  
+|/|   
+* |   ff705fc Merge branch 'feature/taller_api_colombia' into dev
+|\ \  
+| |/  
+|/|   
+| * b8d31d2 docs: agregar capturas visuales y documentacion completa en README
+| * 013b0b0 test: agregar pruebas de widgets y generador de capturas
+| * df8acab feat: implementar vistas de dashboard, listado y detalle con manejo de estados
+| * 9e687b7 feat: implementar rutas nombradas con go_router y punto de entrada
+| * 400029a feat: crear widgets reutilizables de estado y tarjetas
+| * 7d98c46 feat: configurar tema visual Material 3
+| * 087da2b feat: implementar servicio generico de API y manejo de excepciones
+| * dd97ddb feat: implementar modelos de datos con fromJson y toJson
+| * bf8bc29 chore: configurar dependencias, assets y variables de entorno
+|/  
+* 9f23479 chore: inicializar proyecto Flutter base
