@@ -1,0 +1,7 @@
+  dev
+* docs/evidencias
+  feature/taller_api_colombia
+  main
+  remotes/origin/dev
+  remotes/origin/feature/taller_api_colombia
+  remotes/origin/main
